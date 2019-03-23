@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1012042218649",
+    "firebase_url": "https://siusavelife.firebaseio.com",
+    "project_id": "siusavelife",
+    "storage_bucket": "siusavelife.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1012042218649:android:800064951c30d375",
+        "android_client_info": {
+          "package_name": "com.example.siusavelife"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1012042218649-c8jup7ndq3u87m51j1do64hlkehcnpc1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.siusavelife",
+            "certificate_hash": "f3b4e3ec294f0e0986fb76e49618381df6515888"
+          }
+        },
+        {
+          "client_id": "1012042218649-tttug6r9k3sp7mtie8nig9qaophte2l8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA64A2v111Id7n-p19E7Q3JhdevmnU_iAU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1012042218649-tttug6r9k3sp7mtie8nig9qaophte2l8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

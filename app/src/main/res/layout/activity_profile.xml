@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background_profile"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity"
+    tools:ignore="MissingDefaultResource">
+
+
+
+
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+
+
+            android:layout_marginTop="8dp"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+
+                    android:id="@+id/dateClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Last Donate Date : "
+                        android:textSize="20dp" />
+
+                    <TextView
+
+                        android:id="@+id/lastDonateProfile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center"
+                        android:text=""
+                        android:textSize="20dp" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="2dp"
+                android:layout_height="62dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1">
+
+
+                <TextView
+                    android:id="@+id/dayleftProfile"
+                    android:layout_width="152dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Running    days"
+                    android:textSize="25sp" />
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:background="#011F39">
+
+            <ImageView
+                android:id="@+id/imageProfile"
+                android:layout_width="112dp"
+                android:layout_height="96dp"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:foregroundGravity="center"
+                android:src="@mipmap/ic_launcher_round" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:background="#A09D9D"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <android.support.v7.widget.CardView
+                android:layout_margin="5dp"
+                android:layout_marginLeft="8dp"
+                app:cardCornerRadius="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textColor="#000"
+                    android:id="@+id/nameProfile"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="25sp"
+                    android:layout_gravity="center"
+                    android:text="Name:"
+                    android:layout_width="match_parent"
+                    android:layout_height="37dp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_margin="5dp"
+                app:cardCornerRadius="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textColor="#000"
+                    android:id="@+id/bloodProfile"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="25sp"
+                    android:layout_gravity="center"
+                    android:text="Blood Group:"
+                    android:layout_width="match_parent"
+                    android:layout_height="37dp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_margin="5dp"
+                app:cardCornerRadius="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textColor="#000"
+                    android:id="@+id/cityProfile"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="25sp"
+                    android:layout_gravity="center"
+                    android:text="City:"
+                    android:layout_width="match_parent"
+                    android:layout_height="37dp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_margin="5dp"
+                app:cardCornerRadius="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textColor="#000"
+                    android:id="@+id/addressProfile"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="20sp"
+                    android:layout_gravity="center"
+                    android:text="Donate Address:"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_margin="5dp"
+                app:cardCornerRadius="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/statusProfile"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:text="Status:"
+                    android:textColor="#050505"
+                    android:textSize="25sp" />
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+
+        <android.support.v7.widget.CardView
+
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            app:cardCornerRadius="5dp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/numberProfile"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:maxLength="11"
+                android:layout_gravity="center"
+                android:textColor="#FF0000"
+                android:gravity="center"
+                android:text=""
+                android:textSize="25sp" />
+
+        </android.support.v7.widget.CardView>
+
+
+        <Switch
+            android:shadowColor="@color/colorAccent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/switchProfile"
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Can't Donate Now!" />
+
+        <ProgressBar
+
+            android:visibility="gone"
+            android:id="@+id/progressbarProfile"
+            android:layout_width="match_parent"
+            android:layout_height="75dp" />
+
+        <TextView
+            android:id="@+id/logOutProfile"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/signup_button_shape"
+            android:gravity="center"
+            android:text="LOG OUT"
+            android:textColor="#E9E4DF"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</ScrollView>

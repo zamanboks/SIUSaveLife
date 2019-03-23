@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_admin"
+            android:icon="@drawable/ic_face_black_24dp"
+            android:title="Admin" />
+        <item
+            android:id="@+id/nav_coordinator"
+            android:icon="@drawable/ic_face_black_24dp"
+            android:title="Coordinator" />
+        <item
+            android:id="@+id/nav_donor"
+            android:icon="@drawable/ic_plus_one_black_24dp"
+            android:title="Add Donor" />
+        <item
+            android:id="@+id/nav_privacy_policy"
+            android:icon="@drawable/ic_fingerprint_black_24dp"
+            android:title="Privacy Policy" />
+        <item
+            android:id="@+id/nav_Organization"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Add Organization" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+            <item
+                android:id="@+id/nav_rate_us"
+                android:icon="@drawable/ic_star_black_24dp"
+                android:title="Rate us" />
+        </menu>
+    </item>
+
+</menu>

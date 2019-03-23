@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/back_gradient"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="355dp"
+            android:layout_height="wrap_content"
+            app:cardElevation="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="278dp"
+                android:layout_gravity="center"
+                android:background="#E9F7F5"
+                android:padding="10dp">
+
+                <TextView
+
+                    android:id="@+id/textViewNameId"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="21dp"
+                    android:layout_marginLeft="21dp"
+                    android:layout_marginTop="42dp"
+                    android:layout_marginEnd="19dp"
+                    android:layout_marginRight="19dp"
+                    android:background="@drawable/back_gradient"
+                    android:gravity="center"
+                    android:lineSpacingExtra="8sp"
+                    android:text="Request For"
+                    android:textColor="#FFF"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:typeface="sans"
+                    app:fontFamily="sans-serif-light" />
+
+                <TextView
+
+                    android:id="@+id/textViewNumberIdd"
+                    android:layout_width="167dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="124dp"
+                    android:layout_marginLeft="124dp"
+                    android:layout_marginTop="237dp"
+                    android:layout_marginEnd="114dp"
+                    android:layout_marginRight="114dp"
+                    android:background="@drawable/back_gradient"
+                    android:gravity="center"
+                    android:lineSpacingExtra="8sp"
+                    android:text="01778734650"
+                    android:textColor="#FFF"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:typeface="sans"
+                    app:fontFamily="sans-serif-light" />
+
+                <TextView
+                    android:id="@+id/textViewCityIdd"
+                    android:layout_width="338dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewNameId"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="7dp"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:text="Location : Sylhet"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/textViewNameIdd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textViewBloodId"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="53dp"
+                    android:layout_marginLeft="53dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_marginEnd="65dp"
+                    android:layout_marginRight="65dp"
+                    android:layout_marginBottom="376dp"
+                    android:text="Md Ashraf Uzzaman"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/textViewBloodId"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewCityIdd"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="129dp"
+                    android:layout_marginLeft="129dp"
+                    android:layout_marginTop="-163dp"
+                    android:layout_marginEnd="136dp"
+                    android:layout_marginRight="136dp"
+                    android:background="@drawable/slide_style"
+                    android:gravity="center"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:text="A+"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small.Inverse"
+                    android:textColor="#FFF"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewDateIdd"
+                    android:layout_width="318dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/textViewNameId"
+                    android:layout_alignBottom="@+id/textViewPhoneId"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="69dp"
+                    android:layout_marginBottom="225dp"
+                    android:text="26/02/2019"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/textViewBagIdd"
+                    android:layout_width="318dp"
+                    android:layout_height="37dp"
+                    android:layout_alignBottom="@+id/textViewPhoneId"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="139dp"
+                    android:layout_marginEnd="260dp"
+                    android:layout_marginRight="260dp"
+                    android:layout_marginBottom="205dp"
+                    android:text="1 bag"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/textViewAddressIdd"
+                    android:layout_width="329dp"
+                    android:layout_height="31dp"
+                    android:layout_alignTop="@+id/textViewNameId"
+                    android:layout_alignBottom="@+id/textViewPhoneId"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="124dp"
+                    android:layout_marginEnd="41dp"
+                    android:layout_marginRight="41dp"
+                    android:layout_marginBottom="160dp"
+                    android:text="Daka medical"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/textViewWhyIdd"
+                    android:layout_width="326dp"
+                    android:layout_height="37dp"
+                    android:layout_alignTop="@+id/textViewNameId"
+                    android:layout_alignBottom="@+id/textViewPhoneId"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="156dp"
+                    android:layout_marginEnd="49dp"
+                    android:layout_marginRight="49dp"
+                    android:layout_marginBottom="126dp"
+                    android:text="A patient of blood cancer"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>
